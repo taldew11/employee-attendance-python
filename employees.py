@@ -2,9 +2,9 @@
 
 from datetime import datetime
 import csv
-from utilemployees import quit_this, employee_num, employee_name, employee_birth_date, read_csv_file
-from utilemployees import write_to_csv, update_file, approve_file, print_csv_attend_file, check_id_num
-from utilemployees import find_last_month, unique_list_id, append_to_csv
+from utils_employees import quit_this, employee_num, employee_name, employee_birth_date, read_csv_file
+from utils_employees import write_to_csv, update_file, approve_file, print_csv_attend_file, check_id_num
+from utils_employees import find_last_month, unique_list_id, append_to_csv
 
 
 def add_employee_manually():
@@ -46,13 +46,13 @@ def add_employees_from_file():
 
     ..exemples::
 
-    >>> testmycsv1.csv
+     testmycsv1.csv
 
     The file is empty of data
-    >>> testmycsv2.csv
+     testmycsv2.csv
 
     Input file: testmycsv2.csv, has missing data. Process will not continue.
-    >>> testmycsv.csv
+     testmycsv.csv
 
     Data has been added successfully.
 
